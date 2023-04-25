@@ -1,0 +1,18 @@
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+  flex-wrap: wrap;
+}
+
+.entry{
+  display: flex;
+  justify-content: center;
+}
+.inputLabel{
+  color: #908E9B;
+}
+.input{
+  color: #F2F5F5;
+}
