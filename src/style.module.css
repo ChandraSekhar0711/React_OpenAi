@@ -20,3 +20,14 @@
   flex-wrap: wrap;
   overflow-y: scroll;
 }
+@media(max-width: 768px){
+  .container2{
+    margin: 3%;
+  }
+}
+@media (max-width: 480px){
+  .container2{
+    height: 70vh;
+    margin: 3%;
+  }
+}
