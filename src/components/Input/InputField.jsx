@@ -21,7 +21,7 @@ export function InputField({onQueryClick}) {
             id="query"
             multiline
             maxRows={5}
-            className={s.input}
+            className={`text-white ${s.input}`}
             endAdornment={
               <InputAdornment position="end">
                 <IconButton
