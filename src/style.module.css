@@ -20,6 +20,12 @@
   flex-wrap: wrap;
   overflow-y: scroll;
 }
+.note{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  
+}
 @media(max-width: 768px){
   .container2{
     margin: 3%;
