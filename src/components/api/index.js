@@ -25,7 +25,7 @@ export class fetchQuery {
       return res.data.choices[0].message.content;
     } catch (error) {
       //console.log(error.response.data.messages+". Please try by mentioning number of words you want like 150 or 100");
-      return error.response.data.messages+". Please try by mentioning number of words you want like 150 or 100";
+      return error.response.data.messages+".  Sorry, Problem is from our end....";
     }
     
     //console.log(options.headers);
